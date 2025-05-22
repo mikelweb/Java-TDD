@@ -3,9 +3,18 @@ package org.example.numerosromanos;
 public class NumerosRomanos {
     public String convertirAromanos(int numeroArabigo) {
 
+        switch (numeroArabigo) {
+            case 4:
+                return "IV";
+            case 5:
+                return "V";
+        }
+
         if(numeroArabigo <= 3)
             return sumarI(1, numeroArabigo, "");
 
+        if(numeroArabigo <= 8)
+            return sumarI(6, numeroArabigo, "V");
         return null;
     }
 
