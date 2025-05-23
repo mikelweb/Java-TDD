@@ -8,6 +8,10 @@ public class NumerosRomanos {
                 return "IV";
             case 5:
                 return "V";
+            case 9:
+                return "IX";
+            case 10:
+                return "X";
         }
 
         if(numeroArabigo <= 3)
