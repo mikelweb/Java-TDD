@@ -23,6 +23,19 @@ public class NumerosRomanosTest {
         String romano = numerosRomanos.convertirAromanos(3);
         assertEquals(romano, "III");
     }
+
+    @Test
+    public void cuatro() {
+        String romano = numerosRomanos.convertirAromanos(4);
+        assertEquals(romano, "IV");
+    }
+
+    @Test
+    public void cinco() {
+        String romano = numerosRomanos.convertirAromanos(5);
+        assertEquals(romano, "V");
+    }
+
     @Test
     public void seis() {
         String romano = numerosRomanos.convertirAromanos(6);
