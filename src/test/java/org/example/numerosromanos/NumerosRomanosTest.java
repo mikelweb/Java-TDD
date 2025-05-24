@@ -53,4 +53,16 @@ public class NumerosRomanosTest {
         String romano = numerosRomanos.convertirAromanos(8);
         assertEquals(romano, "VIII");
     }
+
+    @Test
+    public void nueve() {
+        String romano = numerosRomanos.convertirAromanos(9);
+        assertEquals(romano, "IX");
+    }
+
+    @Test
+    public void diez() {
+        String romano = numerosRomanos.convertirAromanos(10);
+        assertEquals(romano, "X");
+    }
 }
