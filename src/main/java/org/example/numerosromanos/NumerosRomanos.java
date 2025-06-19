@@ -1,7 +1,7 @@
 package org.example.numerosromanos;
 
 public class NumerosRomanos {
-    public String convertirAromanos(int numeroArabigo) {
+    public String convertirAromanos(Integer numeroArabigo) {
 
         switch (numeroArabigo) {
             case 4:
@@ -30,3 +30,4 @@ public class NumerosRomanos {
     }
 
 }
+
