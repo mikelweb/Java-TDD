@@ -65,4 +65,63 @@ public class NumerosRomanosTest {
         String romano = numerosRomanos.convertirAromanos(10);
         assertEquals(romano, "X");
     }
+    @Test
+    public void once() {
+        String romano = numerosRomanos.convertirAromanos(11);
+        assertEquals(romano, "XI");
+    }
+
+    @Test
+    public void doce() {
+        String romano = numerosRomanos.convertirAromanos(12);
+        assertEquals(romano, "XII");
+    }
+
+    @Test
+    public void trece() {
+        String romano = numerosRomanos.convertirAromanos(13);
+        assertEquals(romano, "XIII");
+    }
+
+    @Test
+    public void catorce() {
+        String romano = numerosRomanos.convertirAromanos(14);
+        assertEquals(romano, "XIV");
+    }
+
+    @Test
+    public void quince() {
+        String romano = numerosRomanos.convertirAromanos(15);
+        assertEquals(romano, "XV");
+    }
+
+    @Test
+    public void dieciseis() {
+        String romano = numerosRomanos.convertirAromanos(16);
+        assertEquals(romano, "XVI");
+    }
+
+    @Test
+    public void diecisiete() {
+        String romano = numerosRomanos.convertirAromanos(17);
+        assertEquals(romano, "XVII");
+    }
+
+    @Test
+    public void dieciocho() {
+        String romano = numerosRomanos.convertirAromanos(18);
+        assertEquals(romano, "XVIII");
+    }
+
+    @Test
+    public void diecinueve() {
+        String romano = numerosRomanos.convertirAromanos(19);
+        assertEquals(romano, "XIX");
+    }
+
+    @Test
+    public void veinte() {
+        String romano = numerosRomanos.convertirAromanos(20);
+        assertEquals(romano, "XX");
+    }
 }
