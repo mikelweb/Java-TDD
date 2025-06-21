@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11c584fd-1c3f-40e0-9240-38a41f18e821" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/numerosromanos/NumerosRomanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/numerosromanos/NumerosRomanos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/numerosromanos/NumerosRomanosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/numerosromanos/NumerosRomanosTest.java" afterDir="false" />
@@ -35,28 +36,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.NumerosRomanosTest.dos.executor": "Run",
-    "JUnit.NumerosRomanosTest.executor": "Run",
-    "JUnit.NumerosRomanosTest.pasarAromanos.executor": "Run",
-    "JUnit.NumerosRomanosTest.tres.executor": "Run",
-    "JUnit.NumerosRomanosTest.uno.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/goie/Documents/GitHub/Java-TDD",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/goie/Documents/GitHub/Java-TDD/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.NumerosRomanosTest.dos.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumerosRomanosTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumerosRomanosTest.pasarAromanos.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumerosRomanosTest.tres.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumerosRomanosTest.uno.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumerosRomanosTest.verificarCentenas.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NumerosRomanosTest.verificarRand.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/goie/Documents/GitHub/Java-TDD&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/goie/Documents/GitHub/Java-TDD/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.NumerosRomanosTest">
+}</component>
+  <component name="RunManager" selected="JUnit.NumerosRomanosTest.verificarRand">
     <configuration name="NumerosRomanosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-TDD" />
       <extension name="coverage">
@@ -88,22 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumerosRomanosTest.pasarAromanos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java-TDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.numerosromanos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.numerosromanos" />
-      <option name="MAIN_CLASS_NAME" value="org.example.numerosromanos.NumerosRomanosTest" />
-      <option name="METHOD_NAME" value="pasarAromanos" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NumerosRomanosTest.tres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-TDD" />
       <extension name="coverage">
@@ -120,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumerosRomanosTest.uno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumerosRomanosTest.verificarCentenas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-TDD" />
       <extension name="coverage">
         <pattern>
@@ -130,7 +117,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example.numerosromanos" />
       <option name="MAIN_CLASS_NAME" value="org.example.numerosromanos.NumerosRomanosTest" />
-      <option name="METHOD_NAME" value="uno" />
+      <option name="METHOD_NAME" value="verificarCentenas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumerosRomanosTest.verificarRand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-TDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.numerosromanos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.numerosromanos" />
+      <option name="MAIN_CLASS_NAME" value="org.example.numerosromanos.NumerosRomanosTest" />
+      <option name="METHOD_NAME" value="verificarRand" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumerosRomanosTest.verificarRand" />
         <item itemvalue="JUnit.NumerosRomanosTest" />
+        <item itemvalue="JUnit.NumerosRomanosTest.verificarCentenas" />
         <item itemvalue="JUnit.NumerosRomanosTest.tres" />
         <item itemvalue="JUnit.NumerosRomanosTest.dos" />
-        <item itemvalue="JUnit.NumerosRomanosTest.uno" />
-        <item itemvalue="JUnit.NumerosRomanosTest.pasarAromanos" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +165,9 @@
       <option name="presentableId" value="Default" />
       <updated>1750224928999</updated>
       <workItem from="1750224930320" duration="5373000" />
-      <workItem from="1750322342877" duration="4966000" />
+      <workItem from="1750322342877" duration="6580000" />
+      <workItem from="1750409148734" duration="3864000" />
+      <workItem from="1750669389893" duration="9000" />
     </task>
     <servers />
   </component>
