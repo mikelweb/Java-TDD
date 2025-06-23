@@ -149,4 +149,20 @@ public class NumerosRomanosTest {
         assertEquals(romanos.get(8), "XXXVIII");
         assertEquals(romanos.get(9), "XXXIX");
     }
+
+    @Test
+    public void verificarDecenas() {
+        List<Integer> decenas = Arrays.asList(40, 50, 60, 70, 80, 90);
+
+        List<String> romanos = decenas.stream().map(
+                number -> numerosRomanos.convertirAromanos(number)
+        ).collect(Collectors.toList());
+
+        assertEquals(romanos.get(0), "XL");
+        assertEquals(romanos.get(1), "L");
+        assertEquals(romanos.get(2), "LX");
+        assertEquals(romanos.get(3), "LXX");
+        assertEquals(romanos.get(4), "LXXX");
+        assertEquals(romanos.get(5), "XC");
+    }
 }
