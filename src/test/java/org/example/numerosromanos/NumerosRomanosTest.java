@@ -1,5 +1,10 @@
 package org.example.numerosromanos;
 import org.junit.Test;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import static org.junit.Assert.assertEquals;
 
 public class NumerosRomanosTest {
@@ -123,5 +128,25 @@ public class NumerosRomanosTest {
     public void veinte() {
         String romano = numerosRomanos.convertirAromanos(20);
         assertEquals(romano, "XX");
+    }
+
+    @Test
+    public void verificarTreintena() {
+        List<Integer> treintena = Arrays.asList(30,31,32,33,34,35,36,37,38,39);
+
+        List<String> romanos = treintena.stream().map(
+                number -> numerosRomanos.convertirAromanos(number)
+        ).collect(Collectors.toList());
+
+        assertEquals(romanos.get(0), "XXX");
+        assertEquals(romanos.get(1), "XXXI");
+        assertEquals(romanos.get(2), "XXXII");
+        assertEquals(romanos.get(3), "XXXIII");
+        assertEquals(romanos.get(4), "XXXIV");
+        assertEquals(romanos.get(5), "XXXV");
+        assertEquals(romanos.get(6), "XXXVI");
+        assertEquals(romanos.get(7), "XXXVII");
+        assertEquals(romanos.get(8), "XXXVIII");
+        assertEquals(romanos.get(9), "XXXIX");
     }
 }
