@@ -184,4 +184,25 @@ public class NumerosRomanosTest {
         assertEquals(romanos.get(7), "DCCC");
         assertEquals(romanos.get(8), "CM");
     }
+
+    @Test
+    public void verificarRand() {
+        List<Integer> random = Arrays.asList(23, 37, 98, 87, 21, 55, 101, 347, 798, 933, 3234);
+
+        List<String> romanos = random.stream().map(
+                number -> numerosRomanos.convertirAromanos(number)
+        ).toList();
+
+        assertEquals(romanos.get(0), "XXIII");
+        assertEquals(romanos.get(1), "XXXVII");
+        assertEquals(romanos.get(2), "XCVIII");
+        assertEquals(romanos.get(3), "LXXXVII");
+        assertEquals(romanos.get(4), "XXI");
+        assertEquals(romanos.get(5), "LV");
+        assertEquals(romanos.get(6), "CI");
+        assertEquals(romanos.get(7), "CCCXLVII");
+        assertEquals(romanos.get(8), "DCCXCVIII");
+        assertEquals(romanos.get(9), "CMXXXIII");
+        assertEquals(romanos.get(10), "MMMCCXXXIV");
+    }
 }
